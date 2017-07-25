@@ -24,19 +24,26 @@ To run this example
 
     dependencies {
     
+    ...
+    
     // https://mvnrepository.com/artifact/org.apache.jclouds/jclouds-all
+    
     compile group: 'org.apache.jclouds', name: 'jclouds-all', version: '2.0.2'  
     
     // https://mvnrepository.com/artifact/io.github.aliyun-beta/aliyun-jclouds
+    
     compile group: 'io.github.aliyun-beta', name: 'aliyun-jclouds', version: '1.0.0'
     
     // https://mvnrepository.com/artifact/io.github.aliyun-beta/aliyun-oss
+    
     compile group: 'io.github.aliyun-beta', name: 'aliyun-oss', version: '1.0.0'
     
     // https://mvnrepository.com/artifact/io.github.aliyun-beta/aliyun-ecs
+    
     compile group: 'io.github.aliyun-beta', name: 'aliyun-ecs', version: '1.0.0'
     
     // https://mvnrepository.com/artifact/io.github.aliyun-beta/aliyun-slb
+    
     compile group: 'io.github.aliyun-beta', name: 'aliyun-slb', version: '1.0.0'      
     
     }
